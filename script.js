@@ -32,5 +32,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
         return re.test(String(email).toLowerCase());
     }
+    function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
 });
 
