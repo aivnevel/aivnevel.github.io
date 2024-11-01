@@ -31,10 +31,10 @@ a:focus, button:focus, input:focus, textarea:focus {
 /* Updated Header Styles for Professional Centered Look */
 /* Updated Logo Styles for More Prominence */
 header img {
-    height: 80px; /* Increase the height for a more prominent display */
+    height: 120px; /* Increase the height for a more prominent display */
     width: auto;
-    margin-bottom: 10px;
-    padding: 5px; /* Add padding for breathing space around the logo */
+    margin-bottom: 15px;
+    padding: 10px; /* Add padding for breathing space around the logo */
 }
 
 /* Header layout adjustments */
@@ -44,21 +44,22 @@ header {
     align-items: center;
     background-color: #000000;
     color: #cdb965;
-    padding: 1.5rem; /* Increased padding for a balanced look */
+    padding: 2rem; /* Increased padding for a balanced look */
     text-align: center;
 }
 
 /* Title and tagline alignment */
 header h1 {
-    font-size: 2.2rem; /* Slightly increase title size */
+    font-size: 2.8rem; /* Slightly increase title size */
     font-family: "Allura", cursive;
     font-weight: 400;
     color: #cdb965;
     text-align: center;
+    margin-top: 0.5rem;
 }
 
 .tagline {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #cdb965;
     margin-top: -4px;
     font-family: "Architects Daughter", cursive;
@@ -69,9 +70,9 @@ header h1 {
 /* Centered navigation with space */
 header nav {
     display: flex;
-    gap: 2rem;
+    gap: 2.5rem;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 header nav a {
@@ -85,13 +86,13 @@ header nav a {
 /* Media Query Adjustments for Larger Screens */
 @media (min-width: 600px) {
     header img {
-        height: 90px; /* Further increase logo size on larger screens */
+        height: 140px; /* Further increase logo size on larger screens */
     }
     header h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     header nav {
-        gap: 2.5rem;
+        gap: 3rem;
     }
 }
 
