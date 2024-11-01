@@ -31,10 +31,10 @@ a:focus, button:focus, input:focus, textarea:focus {
 /* Updated Header Styles for Professional Centered Look */
 /* Updated Logo Styles for More Prominence */
 header img {
-    height: 120px; /* Increase the height for a more prominent display */
+    height: 200px; /* Increase the height for a more prominent display */
     width: auto;
-    margin-bottom: 15px;
-    padding: 10px; /* Add padding for breathing space around the logo */
+    margin-bottom: 5px;
+    padding: 5px; /* Add padding for breathing space around the logo */
 }
 
 /* Header layout adjustments */
@@ -44,7 +44,7 @@ header {
     align-items: center;
     background-color: #000000;
     color: #cdb965;
-    padding: 2rem; /* Increased padding for a balanced look */
+    padding: 1rem; /* Increased padding for a balanced look */
     text-align: center;
 }
 
