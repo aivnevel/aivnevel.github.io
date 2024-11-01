@@ -13,7 +13,7 @@ body {
 }
 
 a {
-    color: #1a73e8;
+    color: #dac765;
     text-decoration: none;
 }
 
@@ -29,7 +29,7 @@ a:focus, button:focus, input:focus, textarea:focus {
 
 /* Layout and Header */
 header {
-    background-color: #004080;
+    background-color: #cdb965;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
