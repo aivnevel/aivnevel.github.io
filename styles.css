@@ -13,7 +13,7 @@ body {
 }
 
 a {
-    color: #dac765;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -30,7 +30,7 @@ a:focus, button:focus, input:focus, textarea:focus {
 /* Layout and Header */
 header {
     background-color: #cdb965;
-    color: #fff;
+    color: #dac765;
     padding: 1rem 0;
     text-align: center;
 }
