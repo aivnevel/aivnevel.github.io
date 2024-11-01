@@ -184,19 +184,18 @@
     <section id="aanmelden">
         <h2>Aanmelden als Lesgever</h2>
         <p>Interesse om als lesgever aan te sluiten bij De Priveles? Vul onderstaand formulier in.</p>
-        <form id="aanmeldenForm" action="aanmelden.php" method="POST">
-            <label for="naamLesgever">Naam:</label>
-            <input type="text" id="naamLesgever" name="naamLesgever" required>
-            
-            <label for="emailLesgever">Email:</label>
-            <input type="email" id="emailLesgever" name="emailLesgever" required>
-            
-            <label for="vak">Vakgebied:</label>
-            <input type="text" id="vak" name="vak" required>
-            
-            <button type="submit">Aanmelden</button>
+        <form action="aanmelden.php" method="post">
+           <label for="naam">Naam:</label>
+           <input type="text" id="naam" name="naam" required>
+
+           <label for="email">E-mail:</label>
+           <input type="email" id="email" name="email" required>
+
+           <label for="onderwerp">Onderwerp:</label>
+           <input type="text" id="onderwerp" name="onderwerp" required>
+
+           <input type="submit" value="Aanmelden">
         </form>
-    </section>
 
     <!-- Footer -->
     <footer>
