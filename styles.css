@@ -29,46 +29,28 @@ a:focus, button:focus, input:focus, textarea:focus {
 
 /* Layout and Header */
 /* Updated Header Styles for Professional Centered Look */
+/* Updated Logo Styles for More Prominence */
+header img {
+    height: 80px; /* Increase the height for a more prominent display */
+    width: auto;
+    margin-bottom: 10px;
+    padding: 5px; /* Add padding for breathing space around the logo */
+}
+
+/* Header layout adjustments */
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #000000;
     color: #cdb965;
-    padding: 1rem;
+    padding: 1.5rem; /* Increased padding for a balanced look */
     text-align: center;
 }
 
-.logo-title-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1rem;
-}
-
-header nav {
-    display: flex;
-    gap: 1.5rem;
-    justify-content: center;
-    margin-top: 1rem;
-}
-
-header nav a {
-    font-weight: bold;
-    color: #cdb965;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    font-size: 1rem;
-}
-
-header img {
-    height: 60px;
-    width: auto;
-    margin-bottom: 10px;
-}
-
+/* Title and tagline alignment */
 header h1 {
-    font-size: 2rem;
+    font-size: 2.2rem; /* Slightly increase title size */
     font-family: "Allura", cursive;
     font-weight: 400;
     color: #cdb965;
@@ -84,13 +66,32 @@ header h1 {
     text-align: center;
 }
 
-/* Media Query Adjustments */
+/* Centered navigation with space */
+header nav {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+header nav a {
+    font-weight: bold;
+    color: #cdb965;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+}
+
+/* Media Query Adjustments for Larger Screens */
 @media (min-width: 600px) {
+    header img {
+        height: 90px; /* Further increase logo size on larger screens */
+    }
     header h1 {
         font-size: 2.5rem;
     }
     header nav {
-        gap: 2rem;
+        gap: 2.5rem;
     }
 }
 
