@@ -23,14 +23,14 @@ a:hover {
 
 /* Accessibility: Focus Styles */
 a:focus, button:focus, input:focus, textarea:focus {
-    outline: 2px solid #cdb965;
+    outline: 2px solid #1a73e8;
     outline-offset: 2px;
 }
 
 /* Layout and Header */
 header {
-    background-color: #000000;
-    color: #cdb965;
+    background-color: #cdb965;
+    color: #dac765;
     padding: 1rem 0;
     text-align: center;
 }
@@ -46,11 +46,10 @@ header h1 {
 header nav a {
     margin: 0 1rem;
     font-weight: bold;
-    color: #cdb965;
 }
 
 header nav a:focus {
-    background-color: #000000;
+    background-color: #0059b3;
     padding: 0.25rem;
 }
 
@@ -77,8 +76,8 @@ section#home img {
 }
 
 button {
-    background-color: #000000;
-    color: #cdb965;
+    background-color: #1a73e8;
+    color: #fff;
     border: none;
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
@@ -89,7 +88,7 @@ button {
 }
 
 button:hover {
-    background-color: #333333;
+    background-color: #004080;
 }
 
 /* Diensten */
@@ -104,7 +103,7 @@ section#diensten {
 }
 
 .dienst h3 {
-    color: #000000;
+    color: #004080;
 }
 
 .dienst img {
@@ -125,7 +124,7 @@ section#faq {
 .faq-item h3 {
     font-size: 1.2rem;
     cursor: pointer;
-    color: #cdb965;
+    color: #1a73e8;
 }
 
 .faq-item .answer {
@@ -153,7 +152,6 @@ input, textarea, button {
 
 label {
     font-weight: bold;
-    color: #cdb965;
 }
 
 input, textarea {
@@ -170,8 +168,8 @@ button {
 
 /* Footer */
 footer {
-    background-color: #000000;
-    color: #cdb965;
+    background-color: #004080;
+    color: #fff;
     text-align: center;
     padding: 1rem;
     font-size: 0.9rem;
@@ -182,12 +180,12 @@ footer p, footer a {
 }
 
 footer nav a {
-    color: #cdb965;
+    color: #e0e0e0;
     font-weight: normal;
 }
 
 footer nav a:hover {
-    color: #ffffff;
+    color: #fff;
 }
 
 /* Media Queries for Responsiveness */
@@ -232,3 +230,4 @@ footer nav a:hover {
         font-size: 1rem;
     }
 }
+
