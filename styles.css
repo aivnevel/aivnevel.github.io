@@ -1,93 +1,230 @@
-/* Algemene stijlen */
-body {
-    font-family: Arial, sans-serif;
+/* Reset and Base Styles */
+* {
     margin: 0;
     padding: 0;
-    color: #333;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Accessibility: Focus Styles */
+a:focus, button:focus, input:focus, textarea:focus {
+    outline: 2px solid #1a73e8;
+    outline-offset: 2px;
+}
+
+/* Layout and Header */
 header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 1em;
+    background-color: #004080;
+    color: #fff;
+    padding: 1rem 0;
     text-align: center;
 }
 
-nav a {
-    margin: 0 15px;
-    color: white;
-    text-decoration: none;
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+header nav a {
+    margin: 0 1rem;
     font-weight: bold;
 }
 
-h1, h2 {
-    color: #4CAF50;
+header nav a:focus {
+    background-color: #0059b3;
+    padding: 0.25rem;
 }
 
+/* Main Content */
 section {
-    padding: 2em;
+    padding: 2rem;
+}
+
+section#home {
+    background: #cce7ff;
+    text-align: center;
+}
+
+section#home h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+section#home img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 1rem;
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: #fff;
     border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
     cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #004080;
 }
 
-/* Diensten sectie */
+/* Diensten */
+section#diensten {
+    background: #f0f8ff;
+}
+
 .dienst {
-    background-color: #f9f9f9;
-    padding: 1em;
-    border-radius: 5px;
-    margin-bottom: 1em;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
 }
 
-/* FAQ sectie */
+.dienst h3 {
+    color: #004080;
+}
+
+.dienst img {
+    max-width: 100%;
+    height: auto;
+    margin: 0.5rem 0;
+}
+
+/* FAQ Section */
+section#faq {
+    background: #f9f9f9;
+}
+
 .faq-item {
-    margin-bottom: 1em;
-    cursor: pointer;
+    margin-bottom: 1.5rem;
 }
 
 .faq-item h3 {
-    font-size: 1.1em;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #1a73e8;
 }
 
 .faq-item .answer {
     display: none;
-    font-size: 0.9em;
-    padding-left: 1em;
+    margin-top: 0.5rem;
     color: #555;
 }
 
-/* Contact formulier */
+/* Contact Form */
+section#contact {
+    background: #e6f2ff;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
 form {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
-    margin: auto;
+    gap: 1rem;
+}
+
+input, textarea, button {
+    font-size: 1rem;
 }
 
 label {
-    margin-top: 10px;
+    font-weight: bold;
 }
 
 input, textarea {
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
 }
 
-#confirmationMessage {
+button {
+    max-width: 200px;
+}
+
+/* Footer */
+footer {
+    background-color: #004080;
+    color: #fff;
     text-align: center;
-    color: #4CAF50;
-    font-weight: bold;
-    margin-top: 20px;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+footer p, footer a {
+    margin: 0.5rem 0;
+}
+
+footer nav a {
+    color: #e0e0e0;
+    font-weight: normal;
+}
+
+footer nav a:hover {
+    color: #fff;
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 600px) {
+    header, footer {
+        text-align: left;
+        padding: 1rem 5%;
+    }
+
+    section {
+        padding: 2rem 5%;
+    }
+
+    .dienst {
+        display: flex;
+        align-items: center;
+    }
+
+    .dienst img {
+        width: 30%;
+        margin-right: 1rem;
+    }
+
+    form {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    button {
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
 }
 
