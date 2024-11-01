@@ -68,6 +68,9 @@ header h1 {
    font-size: 1rem;
    color: #cdb965;
    margin-top: -8px;
+   font-family: "Architects Daughter", cursive;
+   font-weight: 400;
+   font-style: normal;
 }
 
 header nav a {
