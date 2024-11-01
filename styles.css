@@ -60,7 +60,7 @@ section {
 }
 
 section#home {
-    background: #cce7ff;
+    background: #dac765;
     text-align: center;
 }
 
@@ -136,7 +136,7 @@ section#faq {
 
 /* Contact Form */
 section#contact {
-    background: #e6f2ff;
+    background: #ccc0a4;
     padding: 2rem;
     border-radius: 5px;
 }
