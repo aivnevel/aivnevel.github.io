@@ -6,14 +6,15 @@
     <title>Bijles voor Succes | Professionele Bijles in Wiskunde, Wetenschappen & Talen</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <meta name="description" content="Professionele bijles voor leerlingen in het middelbaar- en hoger onderwijs in Wiskunde, Wetenschappen en Talen. Neem contact op voor betere resultaten.">
-    <meta name="keywords" content="bijles, bijles wiskunde, bijles Nederlands, bijles Wetenschappen, bijles Frans, bijles Engels, bijles basisschool, bijles middelbare school, leerondersteuning">
+    <meta name="keywords" content="bijles, bijles wiskunde, bijles Nederlands, bijles Wetenschappen, bijles Frans, bijles Engels, bijles basisschool, bijles middelbare school, leerondersteuning, onderwijs, Gent, middelbaar onderwijs, hoger onderwijs">
+    <meta name="robots" content="index, follow">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://www.depriveles.be/">
     <link rel="stylesheet" href="styles.css">
 
     <!-- Open Graph Meta Tags voor Social Media -->
     <meta property="og:title" content="Bijles voor Succes - Verbeter je cijfers!">
-    <meta property="og:description" content="Neem contact op voor professionele bijles in Wiskunde, Wetenschappen, Frans, Nederlands en Engels voor leerlingen in het basis- en middelbaar- en hoger onderwijs.">
+    <meta property="og:description" content="Neem contact op voor professionele bijles in Wiskunde, Wetenschappen, Frans, Nederlands en Engels.">
     <meta property="og:image" content="https://www.depriveles.be/images/social-image.jpg">
     <meta property="og:url" content="https://www.depriveles.be/">
     <meta property="og:type" content="website">
@@ -21,7 +22,7 @@
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Bijles voor Succes - Verbeter je cijfers!">
-    <meta name="twitter:description" content="Professionele bijles voor leerlingen in Wiskunde, Wetenschappen, Frans, Nederlands en Engels. Ontdek hoe wij je kunnen helpen betere resultaten te behalen.">
+    <meta name="twitter:description" content="Professionele bijles voor leerlingen in Wiskunde, Wetenschappen, Frans, Nederlands en Engels.">
     <meta name="twitter:image" content="https://www.depriveles.be/images/social-image.jpg">
     
     <!-- Fonts Google -->
@@ -93,7 +94,7 @@
     <!-- Navigatie -->
     <header>
 	<div class="logo-title-container">
-	    <img src="images/social-image.jpg" alt="Logo" class="logo">
+	    <img src="images/social-image.jpg" alt="Logo van Bijles voor Succes" class="logo">
             <div class="title-container">
                 <h1>De Privéles</h1>
                 <p class="tagline">De Bijles voor Succes</p>
