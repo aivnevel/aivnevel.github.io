@@ -13,7 +13,7 @@ body {
 }
 
 a {
-    color: #000;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -29,7 +29,7 @@ a:focus, button:focus, input:focus, textarea:focus {
 
 /* Layout and Header */
 header {
-    background-color: #000;
+    background-color: #000000;
     color: #cdb965;
     padding: 1rem 0;
     text-align: center;
@@ -41,7 +41,6 @@ header h1 {
     font-family: "Allura", cursive;
     font-weight: 400;
     font-style: normal;
-    color: #cdb965;
 }
 
 header nav a {
@@ -51,26 +50,23 @@ header nav a {
 }
 
 header nav a:focus {
-    background-color: #333;
+    background-color: #000000;
     padding: 0.25rem;
 }
 
 /* Main Content */
 section {
     padding: 2rem;
-    color: #333;
 }
 
 section#home {
-    background-color: #f5e6b5;
+    background: #dac765;
     text-align: center;
-    color: #333;
 }
 
 section#home h2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
-    color: #000;
 }
 
 section#home img {
@@ -81,8 +77,8 @@ section#home img {
 }
 
 button {
-    background-color: #333;
-    color: #f9f9f9;
+    background-color: #000000;
+    color: #cdb965;
     border: none;
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
@@ -93,23 +89,22 @@ button {
 }
 
 button:hover {
-    background-color: #666;
+    background-color: #333333;
 }
 
 /* Diensten */
 section#diensten {
-    background-color: #f0e4d3;
-    color: #333;
+    background: #ccc0a4;
 }
 
 .dienst {
     margin-bottom: 2rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #ddd;
     padding-bottom: 1rem;
 }
 
 .dienst h3 {
-    color: #333;
+    color: #000000;
 }
 
 .dienst img {
@@ -120,8 +115,7 @@ section#diensten {
 
 /* FAQ Section */
 section#faq {
-    background-color: #f9f9f9;
-    color: #333;
+    background: #f9f9f9;
 }
 
 .faq-item {
@@ -131,7 +125,7 @@ section#faq {
 .faq-item h3 {
     font-size: 1.2rem;
     cursor: pointer;
-    color: #333;
+    color: #cdb965;
 }
 
 .faq-item .answer {
@@ -142,10 +136,9 @@ section#faq {
 
 /* Contact Form */
 section#contact {
-    background-color: #f0e4d3;
+    background: #ccc0a4;
     padding: 2rem;
     border-radius: 5px;
-    color: #333;
 }
 
 form {
@@ -160,12 +153,12 @@ input, textarea, button {
 
 label {
     font-weight: bold;
-    color: #333;
+    color: #cdb965;
 }
 
 input, textarea {
     padding: 0.5rem;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     border-radius: 5px;
     width: 100%;
     max-width: 400px;
@@ -173,13 +166,11 @@ input, textarea {
 
 button {
     max-width: 200px;
-    color: #f9f9f9;
-    background-color: #333;
 }
 
 /* Footer */
 footer {
-    background-color: #000;
+    background-color: #000000;
     color: #cdb965;
     text-align: center;
     padding: 1rem;
@@ -188,7 +179,6 @@ footer {
 
 footer p, footer a {
     margin: 0.5rem 0;
-    color: #cdb965;
 }
 
 footer nav a {
@@ -197,7 +187,7 @@ footer nav a {
 }
 
 footer nav a:hover {
-    color: #fff;
+    color: #ffffff;
 }
 
 /* Media Queries for Responsiveness */
