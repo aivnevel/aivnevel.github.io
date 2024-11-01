@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Hoofdpagina -->
+  <url>
+    <loc>https://www.depriveles.be/</loc>
+    <lastmod>2024-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Dienstenpagina (bijvoorbeeld bijles onderwerpen) -->
+  <url>
+    <loc>https://www.depriveles.be/bijles-wiskunde</loc>
+    <lastmod>2024-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.depriveles.be/bijles-talen</loc>
+    <lastmod>2024-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- FAQ-pagina -->
+  <url>
+    <loc>https://www.depriveles.be/faq</loc>
+    <lastmod>2024-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Contactpagina -->
+  <url>
+    <loc>https://www.depriveles.be/contact</loc>
+    <lastmod>2024-11-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog pagina (indien van toepassing) -->
+  <url>
+    <loc>https://www.depriveles.be/blog</loc>
+    <lastmod>2024-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Overige pagina's en berichten -->
+  <!-- Voeg extra URL's toe voor specifieke blogposts, of extra informatiepagina's -->
+  
+</urlset>
+

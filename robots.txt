@@ -1,0 +1,11 @@
+# robots.txt for depriveles.be
+
+# Toegang voor alle zoekmachines
+User-agent: *
+
+# Blokkeer geen enkele directory voor volledige indexatie
+Allow: /
+
+# Link naar sitemap
+Sitemap: https://www.depriveles.be/sitemap.xml
+
