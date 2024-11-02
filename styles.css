@@ -484,25 +484,73 @@ button {
 
 /* Footer */
 footer {
-    background-color: #000;
-    color: #cdb965;
+    background-color: #000; /* Donkere achtergrond voor contrast */
+    color: #cdb965; /* Goudkleurig accent voor tekst */
     text-align: center;
-    padding: 1rem;
-    font-size: 0.9rem;
+    padding: 2rem 1rem; /* Meer padding voor overzichtelijke layout */
+    font-size: 1rem; /* Iets grotere tekst voor leesbaarheid */
 }
 
 footer p, footer a {
     margin: 0.5rem 0;
     color: #cdb965;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Footer Navigation Links */
+footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
 footer nav a {
     color: #cdb965;
-    font-weight: normal;
+    font-weight: 600; /* Bold voor zichtbaarheid en SEO */
+    text-transform: uppercase; /* Verhoogt zichtbaarheid en autoriteit */
+    font-size: 0.95rem; /* Iets groter voor betere klikbaarheid */
 }
 
 footer nav a:hover {
-    color: #fff;
+    color: #fff; /* Witte kleur voor visueel contrast bij hover */
+}
+
+/* Social Media Links */
+footer .social-links {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer .social-links a {
+    color: #cdb965;
+    font-size: 1.2rem; /* Grotere iconen voor aantrekkingskracht */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer .social-links a:hover {
+    color: #fff; /* Witte kleur bij hover voor contrast */
+    transform: scale(1.1); /* Lichte vergroting bij hover */
+}
+
+/* Footer Legal Text */
+footer .legal {
+    font-size: 0.85rem;
+    color: #888; /* Neutrale tint voor subtiele teksten */
+    margin-top: 1rem;
+}
+
+footer .legal a {
+    color: #cdb965;
+    font-weight: 400;
+}
+
+footer .legal a:hover {
+    color: #fff; /* Hover-kleur voor consistentie */
 }
 
 /* Media Queries for Responsiveness */
