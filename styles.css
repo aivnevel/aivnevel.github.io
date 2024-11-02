@@ -98,43 +98,81 @@ header nav a {
 
 /* Main Content */
 section {
-    padding: 2rem;
+    padding: 3rem; /* Meer padding voor ruimtelijkere opmaak */
     color: #333;
 }
 
+/* Home Section */
 section#home {
-    background-color: #f0e4d3;
+    background-color: #f9f4ef; /* Zachtere tint voor een warmere uitstraling */
     text-align: center;
     color: #333;
+    border-radius: 12px;
+    margin-top: 2rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Voeg schaduw toe voor diepte */
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/* Home Section Heading */
 section#home h2 {
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
-    color: #000;
+    font-size: 2.25rem; /* Grotere lettergrootte voor meer impact */
+    font-weight: 700; /* Maak de titel vet voor zichtbaarheid */
+    color: #1a1a1a;
+    margin-bottom: 1.5rem;
+    line-height: 1.3;
 }
 
+section#home p {
+    font-size: 1.125rem; /* Vergroot tekst voor leesbaarheid */
+    line-height: 1.7; /* Verhoog lijnafstand voor meer witruimte */
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 1.5rem;
+}
+
+/* Home Section Image */
 section#home img {
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
     height: auto;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 8px; /* Rond de hoeken af voor een moderne uitstraling */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Voeg schaduw toe voor focus */
 }
 
+/* Call to Action Button */
 button {
-    background-color: #333;
-    color: #f9f9f9;
+    background-color: #1a73e8;
+    color: #ffffff;
     border: none;
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
+    padding: 0.875rem 1.75rem; /* Vergrote padding voor een prominente button */
+    font-size: 1.125rem; /* Grotere tekst voor betere leesbaarheid */
     cursor: pointer;
-    border-radius: 5px;
-    margin-top: 1rem;
-    transition: background-color 0.3s;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Schaduw voor een oplichtend effect */
 }
 
 button:hover {
-    background-color: #666;
+    background-color: #145dbf;
+    transform: translateY(-2px); /* Subtiele hover-beweging voor interactie */
+}
+
+/* Secondary Call to Action */
+button.secondary {
+    background-color: transparent;
+    color: #1a73e8;
+    border: 2px solid #1a73e8;
+    margin-left: 1rem;
+}
+
+button.secondary:hover {
+    background-color: #1a73e8;
+    color: #ffffff;
 }
 
 /* Diensten */
