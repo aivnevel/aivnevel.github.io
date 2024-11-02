@@ -1,6 +1,6 @@
 # De Privéles 📘
 
-Welkom bij **BijlesWebsite**, een eenvoudig en gebruiksvriendelijk platform om bijles aan te bieden! Dit project is bedoeld om studenten en bijlesgevers bij elkaar te brengen op een efficiënte en toegankelijke manier. De website is ontworpen om eenvoudig in gebruik te zijn, met het doel om de beste gebruikerservaring te bieden.
+Welkom bij **De Priveles**, een eenvoudig en gebruiksvriendelijk platform om bijles aan te bieden! Dit project is bedoeld om studenten en bijlesgevers bij elkaar te brengen op een efficiënte en toegankelijke manier. De website is ontworpen om eenvoudig in gebruik te zijn, met het doel om de beste gebruikerservaring te bieden.
 
 ## Inhoudsopgave
 1. [Over het Project](#over-het-project)
@@ -15,7 +15,7 @@ Welkom bij **BijlesWebsite**, een eenvoudig en gebruiksvriendelijk platform om b
 
 ## Over het Project
 
-BijlesWebsite is gemaakt om bijles eenvoudig en toegankelijk te maken voor iedereen. Gebruikers kunnen lessen vinden, contact opnemen met een bijlesgever en afspraken maken via een duidelijke en overzichtelijke interface. Met eenvoudige navigatie en zoekfunctionaliteit kunnen studenten snel de juiste bijles vinden die past bij hun behoeften. Daarnaast is het project geoptimaliseerd voor zoekmachines, zodat het hoger scoort in Google en sneller wordt gevonden door potentiële gebruikers.
+De Privéles is gemaakt om bijles eenvoudig en toegankelijk te maken voor iedereen. Gebruikers kunnen lessen vinden, contact opnemen met een bijlesgever en afspraken maken via een duidelijke en overzichtelijke interface. Met eenvoudige navigatie en zoekfunctionaliteit kunnen studenten snel de juiste bijles vinden die past bij hun behoeften. Daarnaast is het project geoptimaliseerd voor zoekmachines, zodat het hoger scoort in Google en sneller wordt gevonden door potentiële gebruikers.
 
 ## Functies
 
@@ -31,7 +31,7 @@ BijlesWebsite is gemaakt om bijles eenvoudig en toegankelijk te maken voor ieder
 |------------|-------------|------------------|
 | ![Homepagina](screenshots/homepage.png) | ![Zoekfunctie](screenshots/search.png) | ![Contactformulier](screenshots/contact.png) |
 
-*Screenshots geven een visueel overzicht van de belangrijkste pagina's van de BijlesWebsite.*
+*Screenshots geven een visueel overzicht van de belangrijkste pagina's van De Privéles.*
 
 ## Installatie
 
@@ -75,7 +75,7 @@ Het project bestaat uit een aantal bestanden en mappen die de website structurer
 
 ## Technologieën
 
-BijlesWebsite maakt gebruik van de volgende technologieën:
+De Privéles maakt gebruik van de volgende technologieën:
 
 - **HTML5**: Voor de structuur van de website.
 - **CSS3**: Voor de styling en layout.
@@ -107,4 +107,4 @@ Dit project valt onder de MIT-licentie. Zie het bestand `LICENSE` voor meer info
 
 ---
 
-Bedankt voor je interesse in BijlesWebsite! Mocht je vragen hebben of problemen tegenkomen, aarzel dan niet om contact op te nemen.
+Bedankt voor je interesse in De Privéles! Mocht je vragen hebben of problemen tegenkomen, aarzel dan niet om contact op te nemen.
