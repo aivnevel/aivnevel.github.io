@@ -260,7 +260,6 @@ section#diensten h2 {
 }
 
 /* FAQ Section */
-/* FAQ Section */
 section#faq {
     background-color: #f0e4d3; /* Achtergrondkleur van diensten sectie */
     padding: 40px 20px;
@@ -340,66 +339,100 @@ section#faq {
     text-align: center;
 }
 
+/* Tutor */
 /* Tutors Section */
 #tutors {
-    background-color: #f9f9f9;
+    background-color: #f0e4d3; /* Zelfde achtergrondkleur als Diensten */
     padding: 40px 20px;
     border-radius: 8px;
     margin-top: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#tutors h2 {
-    font-size: 28px;
-    color: #333333;
+    color: #333; /* Donkergrijze tekstkleur voor leesbaarheid */
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    margin-bottom: 20px;
 }
 
+/* Tutors Heading */
+#tutors h2 {
+    font-size: 32px; /* Grotere titel voor impact */
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase; /* Extra aandacht voor de sectietitel */
+    margin-bottom: 30px;
+}
+
+/* Tutor Description Text */
 #tutors p {
     font-size: 18px;
     line-height: 1.6;
-    color: #555555;
+    color: #555;
     text-align: center;
     max-width: 800px;
     margin: 0 auto 20px;
 }
 
+/* Individual Tutor Item */
 .tutor {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     margin-top: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left; /* Links uitlijnen voor overzichtelijkheid */
 }
 
 .tutor:hover {
-    transform: translateY(-5px);
+    transform: translateY(-5px); /* Lichte hover beweging */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
+/* Tutor Name */
 .tutor h3 {
     font-size: 24px;
-    color: #cdb965;
+    color: #cdb965; /* Accentkleur die past bij diensten */
     margin-bottom: 10px;
+    font-weight: 600;
 }
 
+/* Tutor Description */
 .tutor p {
     font-size: 16px;
-    color: #666666;
+    color: #666; /* Grijstint voor leesbaarheid */
     line-height: 1.5;
 }
 
+/* Final Text */
 #tutors p:last-of-type {
     font-size: 20px;
     font-weight: bold;
-    color: #333333;
+    color: #333;
     text-align: center;
     margin-top: 30px;
     max-width: 800px;
     margin: 0 auto;
 }
 
+/* Call-to-Action Button */
+.tutor button {
+    background-color: #333; /* Donkere tint voor opvallende CTA */
+    color: #f9f9f9;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.tutor button:hover {
+    background-color: #666; /* Lichte hoverkleur */
+    transform: translateY(-3px); /* Visueel aantrekkelijk hover-effect */
+}
 
 /* Testimonials */
 #testimonials {
