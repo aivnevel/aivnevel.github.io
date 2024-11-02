@@ -1,1 +1,296 @@
-body,section#faq{background-color:#f9f9f9}section#contact,section#diensten,section#home{background-color:#f0e4d3}section,section#contact{padding:2rem;color:#333}form,header,header nav{display:flex}button,header nav a,input,textarea{font-size:1rem}header nav a,label{font-weight:700}.dienst h3,.faq-item h3,body,label,section,section#contact,section#faq,section#home{color:#333}footer,header{background-color:#000;text-align:center;color:#cdb965}.tagline,footer,header,header h1,section#home{text-align:center}.tagline,footer,footer nav a,header,header h1,header nav a{color:#cdb965}*{margin:0;padding:0;box-sizing:border-box}body{font-family:Arial,sans-serif;line-height:1.6}a{color:#000;text-decoration:none}a:hover{text-decoration:underline}a:focus,button:focus,input:focus,textarea:focus{outline:#cdb965 solid 2px;outline-offset:2px}header img{height:200px;width:auto;margin-bottom:0;padding:0}header{flex-direction:column;align-items:center;padding:.2rem}header h1{font-size:2.8rem;font-family:Allura,cursive;font-weight:400;margin-top:.5rem}.tagline{font-size:1.2rem;margin-top:-4px;font-family:"Architects Daughter",cursive;font-weight:400}header nav{gap:2.5rem;justify-content:center;margin-top:1.5rem}header nav a{text-transform:uppercase;letter-spacing:.5px}section#home h2{font-size:1.75rem;margin-bottom:1rem;color:#000}section#home img{width:100%;max-width:500px;height:auto;margin-top:1rem}button{border:none;padding:.75rem 1.5rem;cursor:pointer;border-radius:5px;margin-top:1rem;transition:background-color .3s;max-width:200px;color:#f9f9f9;background-color:#333}button:hover{background-color:#666}section#diensten{color:#333}.dienst{margin-bottom:2rem;border-bottom:1px solid #ccc;padding-bottom:1rem}.dienst img{max-width:100%;height:auto;margin:.5rem 0}.faq-item{margin-bottom:1.5rem}.faq-item h3{font-size:1.2rem;cursor:pointer}.faq-item .answer{display:none;margin-top:.5rem;color:#555}section#contact{border-radius:5px}form{flex-direction:column;gap:1rem}input,textarea{padding:.5rem;border:1px solid #ccc;border-radius:5px;width:100%;max-width:400px}footer{padding:1rem;font-size:.9rem}footer a,footer p{margin:.5rem 0;color:#cdb965}footer nav a{font-weight:400}footer nav a:hover{color:#fff}@media (min-width:600px){header img{height:140px}header h1{font-size:3rem}header nav{gap:3rem}footer,header{text-align:left;padding:1rem 5%}section{padding:2rem 5%}.dienst{display:flex;align-items:center}.dienst img{width:30%;margin-right:1rem}form{flex-direction:row;flex-wrap:wrap;gap:1.5rem}}@media (min-width:768px){header h1{font-size:2.5rem}button{padding:1rem 2rem;font-size:1.1rem}footer{font-size:1rem}}
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Accessibility: Focus Styles */
+a:focus, button:focus, input:focus, textarea:focus {
+    outline: 2px solid #cdb965;
+    outline-offset: 2px;
+}
+
+/* Layout and Header */
+/* Updated Header Styles for Professional Centered Look */
+/* Updated Logo Styles for More Prominence */
+header img {
+    height: 200px; /* Increase the height for a more prominent display */
+    width: auto;
+    margin-bottom: 0px;
+    padding: 0px; /* Add padding for breathing space around the logo */
+}
+
+/* Header layout adjustments */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    color: #cdb965;
+    padding: 0.2rem; /* Increased padding for a balanced look */
+    text-align: center;
+}
+
+/* Title and tagline alignment */
+header h1 {
+    font-size: 2.8rem; /* Slightly increase title size */
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    color: #cdb965;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #cdb965;
+    margin-top: -4px;
+    font-family: "Architects Daughter", cursive;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Centered navigation with space */
+header nav {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+header nav a {
+    font-weight: bold;
+    color: #cdb965;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+}
+
+/* Media Query Adjustments for Larger Screens */
+@media (min-width: 600px) {
+    header img {
+        height: 140px; /* Further increase logo size on larger screens */
+    }
+    header h1 {
+        font-size: 3rem;
+    }
+    header nav {
+        gap: 3rem;
+    }
+}
+
+/* Main Content */
+section {
+    padding: 2rem;
+    color: #333;
+}
+
+section#home {
+    background-color: #f0e4d3;
+    text-align: center;
+    color: #333;
+}
+
+section#home h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+section#home img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 1rem;
+}
+
+button {
+    background-color: #333;
+    color: #f9f9f9;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+/* Diensten */
+section#diensten {
+    background-color: #f0e4d3;
+    color: #333;
+}
+
+.dienst {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+.dienst h3 {
+    color: #333;
+}
+
+.dienst img {
+    max-width: 100%;
+    height: auto;
+    margin: 0.5rem 0;
+}
+
+/* FAQ Section */
+section#faq {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.faq-item {
+    margin-bottom: 1.5rem;
+}
+
+.faq-item h3 {
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #333;
+}
+
+.faq-item .answer {
+    display: none;
+    margin-top: 0.5rem;
+    color: #555;
+}
+
+/* Testimonials */
+#testimonials {
+    background: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+}
+.testimonial {
+    margin: 20px 0;
+    font-style: italic;
+}
+
+/* Contact Form */
+section#contact {
+    background-color: #f0e4d3;
+    padding: 2rem;
+    border-radius: 5px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input, textarea, button {
+    font-size: 1rem;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+button {
+    max-width: 200px;
+    color: #f9f9f9;
+    background-color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #cdb965;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+footer p, footer a {
+    margin: 0.5rem 0;
+    color: #cdb965;
+}
+
+footer nav a {
+    color: #cdb965;
+    font-weight: normal;
+}
+
+footer nav a:hover {
+    color: #fff;
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 600px) {
+    header, footer {
+        text-align: left;
+        padding: 1rem 5%;
+    }
+
+    section {
+        padding: 2rem 5%;
+    }
+
+    .dienst {
+        display: flex;
+        align-items: center;
+    }
+
+    .dienst img {
+        width: 30%;
+        margin-right: 1rem;
+    }
+
+    form {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    button {
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+}
