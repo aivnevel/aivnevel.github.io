@@ -1,4 +1,4 @@
-# BijlesWebsite 📘
+# De Privéles 📘
 
 Welkom bij **BijlesWebsite**, een eenvoudig en gebruiksvriendelijk platform om bijles aan te bieden! Dit project is bedoeld om studenten en bijlesgevers bij elkaar te brengen op een efficiënte en toegankelijke manier. De website is ontworpen om eenvoudig in gebruik te zijn, met het doel om de beste gebruikerservaring te bieden.
 
