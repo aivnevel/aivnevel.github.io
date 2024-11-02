@@ -160,56 +160,83 @@ section#diensten {
 }
 
 /* FAQ Section */
-#faq {
-    background-color: #f9f9f9;
-    padding: 40px 20px;
-    border-radius: 8px;
-    margin-top: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* FAQ Section */
+section#faq {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/* FAQ Heading */
 #faq h2 {
-    font-size: 28px;
-    color: #333333;
-    text-align: center;
-    margin-bottom: 20px;
+    font-size: 32px; /* Iets groter voor meer impact */
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700; /* Maak de titel vet voor betere zichtbaarheid */
 }
 
+/* FAQ Item */
 .faq-item {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    margin-top: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .faq-item:hover {
-    transform: translateY(-5px);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Versterkte schaduw bij hover voor visuele focus */
 }
 
+/* FAQ Question */
 .faq-item h3 {
-    font-size: 24px;
-    color: #cdb965;
-    margin-bottom: 10px;
-    cursor: pointer;
+    font-size: 24px;
+    color: #1a73e8;
+    cursor: pointer;
+    margin: 0;
+    font-weight: 600; /* Maak de vraag vetgedrukt */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.faq-item p.answer {
-    font-size: 16px;
-    color: #666666;
-    line-height: 1.5;
-    display: none; /* Start hidden */
+.faq-item h3 span {
+    font-size: 24px;
+    font-weight: 400;
+    transition: transform 0.3s ease;
 }
 
-#faq p:last-of-type {
-    font-size: 20px;
-    font-weight: bold;
-    color: #333333;
-    text-align: center;
-    margin-top: 30px;
-    max-width: 800px;
-    margin: 0 auto;
+.faq-item h3:hover span {
+    transform: rotate(45deg); /* Visueel effect bij hover voor interactie */
+}
+
+/* FAQ Answer */
+.faq-item .answer {
+    display: none; /* Verbergt het antwoord standaard */
+    font-size: 16px;
+    line-height: 1.6; /* Verhoogde regelafstand voor leesbaarheid */
+    color: #555;
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+/* CTA in FAQ Answer */
+.faq-item .answer strong {
+    color: #1a73e8;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
 }
 
 /* Tutors Section */
