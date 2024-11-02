@@ -144,7 +144,7 @@ section#home img {
 
 /* Call to Action Button */
 button {
-    background-color: #1a73e8;
+    background-color: #cdb965;
     color: #ffffff;
     border: none;
     padding: 0.875rem 1.75rem; /* Vergrote padding voor een prominente button */
@@ -165,13 +165,13 @@ button:hover {
 /* Secondary Call to Action */
 button.secondary {
     background-color: transparent;
-    color: #1a73e8;
-    border: 2px solid #1a73e8;
+    color: #cdb965;
+    border: 2px solid #cdb965;
     margin-left: 1rem;
 }
 
 button.secondary:hover {
-    background-color: #1a73e8;
+    background-color: #cdb965;
     color: #ffffff;
 }
 
@@ -269,7 +269,7 @@ section#faq {
 
 /* CTA in FAQ Answer */
 .faq-item .answer strong {
-    color: #1a73e8;
+    color: #cdb965;
     font-weight: bold;
     display: block;
     margin-top: 10px;
