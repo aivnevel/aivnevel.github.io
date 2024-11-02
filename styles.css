@@ -160,26 +160,58 @@ section#diensten {
 }
 
 /* FAQ Section */
-section#faq {
-    background-color: #f9f9f9;
-    color: #333;
+#faq {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#faq h2 {
+    font-size: 28px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .faq-item {
-    margin-bottom: 1.5rem;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.faq-item:hover {
+    transform: translateY(-5px);
 }
 
 .faq-item h3 {
-    font-size: 1.2rem;
-    cursor: pointer;
-    color: #333;
+    font-size: 24px;
+    color: #cdb965;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 
-.faq-item .answer {
-    display: none;
-    margin-top: 0.5rem;
-    color: #555;
+.faq-item p.answer {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.5;
+    display: none; /* Start hidden */
 }
+
+#faq p:last-of-type {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    margin-top: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 /* Tutors Section */
 #tutors {
     background-color: #f9f9f9;
