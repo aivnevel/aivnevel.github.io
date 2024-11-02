@@ -175,26 +175,88 @@ button.secondary:hover {
     color: #ffffff;
 }
 
-/* Diensten */
+/* Diensten Section */
 section#diensten {
-    background-color: #f0e4d3;
+    background-color: #f0e4d3; /* Huidige achtergrondkleur behouden */
     color: #333;
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Diepte toevoegen voor focus */
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
+/* Diensten Sectie Titel */
+section#diensten h2 {
+    font-size: 2.5rem;
+    color: #333; /* Donkerder tint voor leesbaarheid */
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase; /* Titel optisch versterken */
+}
+
+/* Dienst Item */
 .dienst {
+    background-color: #ffffff;
+    padding: 2rem;
     margin-bottom: 2rem;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc; /* Lichte rand voor definitie */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left; /* Links uitlijnen voor overzichtelijkheid */
 }
 
+.dienst:hover {
+    transform: translateY(-5px); /* Subtiele hover-beweging voor visuele focus */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Versterkte schaduw bij hover */
+}
+
+/* Dienst Titel */
 .dienst h3 {
-    color: #333;
+    font-size: 1.75rem;
+    color: #333; /* Duidelijke tekstkleur */
+    font-weight: 600;
+    margin-bottom: 1rem;
 }
 
+/* Dienst Afbeelding */
 .dienst img {
     max-width: 100%;
     height: auto;
-    margin: 0.5rem 0;
+    border-radius: 8px;
+    margin: 1rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Schaduw voor focus op visuals */
+}
+
+/* Dienst Omschrijving */
+.dienst p {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: #555; /* Zachte kleur voor leesbaarheid */
+    margin-bottom: 1rem;
+}
+
+/* Call-to-Action Button */
+.dienst button {
+    background-color: #333; /* Aansluiting op huidige knoppenkleur */
+    color: #f9f9f9;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: background-color 0.3s, transform 0.3s ease;
+}
+
+.dienst button:hover {
+    background-color: #666; /* Donkerdere tint bij hover */
+    transform: translateY(-3px); /* Licht opwaarts effect bij hover */
 }
 
 /* FAQ Section */
