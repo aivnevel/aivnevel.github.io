@@ -39,11 +39,11 @@ Volg deze stappen om het project lokaal te installeren:
 
 1. **Clone het repository**:
     ```bash
-    git clone https://github.com/jouwgebruikersnaam/BijlesWebsite.git
+    git clone https://github.com/aivnevel/aivnevel.github.io.git
     ```
 2. **Navigeer naar de projectmap**:
     ```bash
-    cd BijlesWebsite
+    cd aivnevel.github.io
     ```
 3. **Open `index.html` in je browser**:
     - Open het bestand `index.html` direct in je browser of gebruik een live server voor lokale weergave.
