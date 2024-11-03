@@ -311,7 +311,7 @@ section#faq {
 .faq-item h3 span {
     font-size: 24px;
     font-weight: 400;
-    color: #1a73e8; /* Accentkleur voor plus/min teken */
+    color: #cdb965; /* Accentkleur voor plus/min teken */
     transition: transform 0.3s ease;
 }
 
@@ -332,7 +332,7 @@ section#faq {
 
 /* CTA in FAQ Answer */
 .faq-item .answer strong {
-    color: #1a73e8; /* Accentkleur voor belangrijke tekst */
+    color: #cdb965; /* Accentkleur voor belangrijke tekst */
     font-weight: bold;
     display: block;
     margin-top: 10px;
@@ -439,8 +439,8 @@ section#faq {
     background-color: #f7f7f7;
     padding: 40px 20px;
     text-align: center;
-    border-top: 2px solid #1a73e8;
-    border-bottom: 2px solid #1a73e8;
+    border-top: 2px solid #cdb965;
+    border-bottom: 2px solid #cdb965;
     margin-top: 40px;
 }
 
@@ -464,7 +464,7 @@ section#faq {
 .testimonial::before {
     content: "“";
     font-size: 50px;
-    color: #1a73e8;
+    color: #cdb965;
     position: absolute;
     top: -10px;
     left: 10px;
@@ -473,7 +473,7 @@ section#faq {
 .testimonial::after {
     content: "”";
     font-size: 50px;
-    color: #1a73e8;
+    color: #cdb965;
     position: absolute;
     bottom: -10px;
     right: 10px;
@@ -536,7 +536,7 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-    border-color: #1a73e8;
+    border-color: #cdb965;
     outline: none;
 }
 
@@ -553,7 +553,7 @@ button {
 }
 
 button:hover {
-    background-color: #1a73e8;
+    background-color: #cdb965;
 }
 
 
