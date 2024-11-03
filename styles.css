@@ -567,21 +567,22 @@ button:hover {
     background-color: #cdb965;
 }
 
-
 /* Footer */
 footer {
-    background-color: #000; /* Donkere achtergrond voor contrast */
-    color: #cdb965; /* Goudkleurig accent voor tekst */
+    background-color: #000;
+    color: #cdb965;
     text-align: center;
-    padding: 2rem 1rem; /* Meer padding voor overzichtelijke layout */
-    font-size: 1rem; /* Iets grotere tekst voor leesbaarheid */
+    padding: 3rem 2rem;
+    font-size: 1rem;
+    border-top: 4px solid #cdb965;
 }
 
 footer p, footer a {
     margin: 0.5rem 0;
     color: #cdb965;
     text-decoration: none;
-    transition: color 0.3s ease; /* Smooth color transition on hover */
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
 /* Footer Navigation Links */
@@ -589,95 +590,65 @@ footer nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
-    margin-top: 1rem;
+    gap: 1.2rem;
+    margin-top: 1.5rem;
 }
 
 footer nav a {
     color: #cdb965;
-    font-weight: 600; /* Bold voor zichtbaarheid en SEO */
-    text-transform: uppercase; /* Verhoogt zichtbaarheid en autoriteit */
-    font-size: 0.95rem; /* Iets groter voor betere klikbaarheid */
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1rem;
 }
 
 footer nav a:hover {
-    color: #fff; /* Witte kleur voor visueel contrast bij hover */
+    color: #fff;
+    transform: scale(1.05);
 }
 
 /* Social Media Links */
 footer .social-links {
-    margin-top: 1.5rem;
+    margin-top: 1.8rem;
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.2rem;
 }
 
 footer .social-links a {
     color: #cdb965;
-    font-size: 1.2rem; /* Grotere iconen voor aantrekkingskracht */
+    font-size: 1.5rem;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 footer .social-links a:hover {
-    color: #fff; /* Witte kleur bij hover voor contrast */
-    transform: scale(1.1); /* Lichte vergroting bij hover */
+    color: #fff;
+    transform: scale(1.15);
 }
 
 /* Footer Legal Text */
 footer .legal {
     font-size: 0.85rem;
-    color: #888; /* Neutrale tint voor subtiele teksten */
-    margin-top: 1rem;
+    color: #888;
+    margin-top: 1.5rem;
+    line-height: 1.6;
 }
 
 footer .legal a {
     color: #cdb965;
-    font-weight: 400;
 }
 
 footer .legal a:hover {
-    color: #fff; /* Hover-kleur voor consistentie */
+    color: #fff;
 }
 
-/* Media Queries for Responsiveness */
+/* Responsive Design */
 @media (min-width: 600px) {
-    header, footer {
-        text-align: left;
-        padding: 1rem 5%;
-    }
-
-    section {
+    footer {
+        text-align: center;
         padding: 2rem 5%;
     }
 
-    .dienst {
-        display: flex;
-        align-items: center;
-    }
-
-    .dienst img {
-        width: 30%;
-        margin-right: 1rem;
-    }
-
-    form {
-        flex-direction: row;
-        flex-wrap: wrap;
+    footer nav {
         gap: 1.5rem;
-    }
-}
-
-@media (min-width: 768px) {
-    header h1 {
-        font-size: 2.5rem;
-    }
-
-    button {
-        padding: 1rem 2rem;
-        font-size: 1.1rem;
-    }
-
-    footer {
-        font-size: 1rem;
     }
 }
