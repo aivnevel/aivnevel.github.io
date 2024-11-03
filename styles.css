@@ -436,13 +436,64 @@ section#faq {
 
 /* Testimonials */
 #testimonials {
-    background: #f7f7f7;
-    padding: 20px;
+    background-color: #f7f7f7;
+    padding: 40px 20px;
     text-align: center;
+    border-top: 2px solid #1a73e8;
+    border-bottom: 2px solid #1a73e8;
+    margin-top: 40px;
 }
+
+#testimonials h2 {
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
 .testimonial {
-    margin: 20px 0;
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-style: italic;
+    position: relative;
+}
+
+.testimonial::before {
+    content: "“";
+    font-size: 50px;
+    color: #1a73e8;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+
+.testimonial::after {
+    content: "”";
+    font-size: 50px;
+    color: #1a73e8;
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+}
+
+.testimonial p {
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.6;
+}
+
+.testimonial-author {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333333;
+    font-size: 16px;
+}
+
+.testimonial-author::before {
+    content: "- ";
 }
 
 /* Contact Form */
